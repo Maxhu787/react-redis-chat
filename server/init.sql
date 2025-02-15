@@ -1,0 +1,9 @@
+
+CREATE TABLE users(
+  id SERIAL PRIMARY KEY,
+  username VARCHAR(32) NOT NULL UNIQUE,
+  passhash VARCHAR NOT NULL,
+  userid VARCHAR NOT NULL UNIQUE,
+  bio VARCHAR,
+  profile_picture VARCHAR
+);

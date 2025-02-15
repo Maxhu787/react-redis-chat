@@ -1,0 +1,68 @@
+{
+  "name": "tcsn",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The Communication Station",
+  "keywords": [],
+  "author": "Hu Kaixiang",
+  "dependencies": {
+    "@chakra-ui/color-mode": "^2.2.0",
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@chakra-ui/theme": "^3.3.0",
+    "@chakra-ui/theme-tools": "^2.1.1",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "chakra-react-select": "^4.9.1",
+    "customize-cra": "^1.0.0",
+    "customize-cra-less-loader": "^2.0.0",
+    "emoji-picker-react": "^4.11.1",
+    "formik": "^2.4.6",
+    "framer-motion": "^10.18.0",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.2",
+    "less": "^4.2.0",
+    "less-loader": "^7.3.0",
+    "nodemon": "^3.1.4",
+    "npm": "^10.8.2",
+    "react": "^18.3.1",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.25.1",
+    "react-scripts": "5.0.1",
+    "redis": "^4.7.0",
+    "rsuite": "^5.68.0",
+    "sass": "^1.77.8",
+    "socket.io-client": "^4.7.5",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.4.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
+    "server": "NODE_TLS_REJECT_UNAUTHORIZED='0' nodemon ./server/index.js",
+    "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\""
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "prettier": "3.3.3"
+  }
+}

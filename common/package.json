@@ -1,0 +1,16 @@
+{
+  "name": "@tcsn/common",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Common files for frontend and backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hu Kaixiang",
+  "license": "",
+  "dependencies": {
+    "yup": "^1.2.0"
+  }
+}

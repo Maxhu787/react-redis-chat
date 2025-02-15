@@ -1,0 +1,37 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: postgres_container
+    environment:
+      POSTGRES_USER: hukaixiang
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: tcsn
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      # - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:7
+    container_name: redis_container
+    ports:
+      - "6379:6379"
+
+  nodeapp:
+    build: .
+    container_name: nodeapp_container
+    ports:
+      - "4000:4000"
+    depends_on:
+      - postgres
+      - redis
+    environment:
+      DATABASE_URL: postgres://hukaixiang:pass@postgres:5432/tcsn
+      REDIS_URL: redis://redis:6379
+    volumes:
+      - .:/app
+    command: npm start
+
+volumes:
+  pgdata:

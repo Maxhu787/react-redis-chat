@@ -1,0 +1,26 @@
+.loading-screen {  
+  .logo {
+    animation: logo-anim 1.8s ease infinite;
+    height: 50px;
+    width: 50px;
+  }
+
+  @keyframes logo-anim {
+    30% {
+      transform: scale(1.2);
+    }
+    40%, 
+    60% {
+      transform: rotate(-20deg) scale(1.2);
+    }
+    50% {
+      transform: rotate(20deg) scale(1.2);
+    }
+    70% {
+      transform: rotate(0deg) scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+}

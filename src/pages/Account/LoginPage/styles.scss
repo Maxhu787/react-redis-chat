@@ -1,0 +1,129 @@
+.login-page {
+  height: 100vh;
+  margin: 0;
+  color: #fff;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-image: url(../../../assets/images/2.jpg);
+  background-size: cover;
+
+  .login {
+    user-select: none;
+    position: absolute;
+    top: calc(50% - 75px);
+    left: calc(50% - 10px);
+    // top: calc(50% - 75px);
+    // left: calc(50% - 50px);
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+    z-index: 2;
+
+    .header {
+      position: absolute;
+      top: calc(50% - 15px);
+      left: calc(50% - 435px);
+      // top: calc(50% - 25px);
+      // left: calc(50% - 435px);
+    }
+
+    .header div {
+      float: left;
+      color: #fff;
+      font-family: "Exo", sans-serif;
+      font-size: 50px;
+      font-weight: 200;
+    }
+
+    .header div span {
+      color: #ffa500 !important;
+    }
+
+    input[type="text"] {
+      width: 265px;
+      height: 45px;
+      background: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      border-radius: 2px;
+      color: #fff;
+      font-family: "Exo", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      padding: 4px 4px 4px 10px;
+      border: 1px solid #ffa500;
+    }
+
+    input[type="password"] {
+      width: 265px;
+      height: 45px;
+      background: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      border-radius: 2px;
+      color: #fff;
+      font-family: "Exo", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      padding: 4px 4px 4px 10px;
+      margin-top: 10px;
+    }
+
+    button {
+      width: 266px;
+      height: 38px;
+      background: #ffa500;
+      border: 1px solid #ffa500;
+      cursor: pointer;
+      border-radius: 2px;
+      color: #fff;
+      font-family: "Exo", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      padding: 6px;
+      margin-top: 10px;
+      transition: all 0.2s ease-in;
+    }
+
+    button:hover {
+      opacity: 0.8;
+      background-color: #fff;
+      border: 1px solid #fff;
+      color: #000;
+    }
+
+    button:active {
+      opacity: 0.6;
+    }
+
+    #signup {
+      opacity: 1;
+      color: #fff;
+      background-color: transparent;
+      border: 1px solid #fff;
+    }
+
+    #signup:hover {
+      opacity: 0.5;
+      background-color: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+    }
+
+    input[type="text"]:focus {
+      outline: none;
+      border: 1px solid #ffa500;
+    }
+
+    input[type="password"]:focus {
+      outline: none;
+      border: 1px solid #ffa500;
+    }
+
+    ::-webkit-input-placeholder {
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    ::-moz-input-placeholder {
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+}
