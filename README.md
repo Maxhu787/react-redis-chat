@@ -1,8 +1,9 @@
 # 聊天網站實作
 
+<img src="./screenshots/1.png" width="850">
 <table>
   <tr>
-    <td><img src="./screenshots/1.png" width="400"></td>
+    <td><img src="./screenshots/5.png" width="400"></td>
     <td><img src="./screenshots/2.png" width="400"></td>
   </tr>
   <tr>
@@ -11,6 +12,7 @@
   </tr>
 </table>
 
+## Setup
 ```
 npm install
 npm run start
@@ -21,10 +23,6 @@ cd server
 npm install
 npm run start
 ```
-
-## 原始碼
-
-[GitHub Repository](https://github.com/maxhu787/react-redis-chat)
 
 ## 主要功能
 
@@ -52,7 +50,7 @@ npm run start
 - Redis
 - PostgreSQL
 
-## 實作細節
+## 實作
 
 ### 帳號管理
 
