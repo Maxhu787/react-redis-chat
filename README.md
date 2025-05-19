@@ -1,4 +1,4 @@
-# 聊天網站實作
+# 聊天網站實作 react-redis-chat
 
 <img src="./screenshots/1.png" width="850">
 <table>
