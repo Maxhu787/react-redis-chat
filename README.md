@@ -1,7 +1,7 @@
 <div align=center>
 
 <picture>
-  <img alt="Logo" src="./screenshots/1.png" width="280" style=margin-bottom:1rem />
+  <img alt="Logo" src="./public/readme-logo.png" width="280" style=margin-bottom:1rem />
 </picture>
 
 聊天網站實作 react-redis-chat
@@ -28,12 +28,14 @@
 ## 快速開始
 
 ### 1) 安裝依賴 & 啟動前端開發環境
+
 ```
 npm install
 npm run start
 ```
 
 ### 2) 安裝依賴 & 啟動後端開發環境
+
 ```
 cd server
 npm install
@@ -73,7 +75,7 @@ npm run start
 
 - 使用 Docker 容器化。
 
-## 截圖區 
+## 截圖區
 
 <img src="./screenshots/1.png" width="400">
 <table>
