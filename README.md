@@ -4,7 +4,7 @@
   <img alt="Logo" src="./public/readme-logo.png" width="280" style=margin-bottom:1rem />
 </picture>
 
-聊天網站實作 react-redis-chat
+聊天網站實作
 
 </div>
 
