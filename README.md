@@ -14,7 +14,7 @@
 - 後端：Node.js, ExpressJS, Socket.io, Redis, PostgreSQL
 - 其它：Chakra UI (ui 套件), Framer Motion (動畫), Formik (表單驗證)
 
-一個用 ReactJS 打造的聊天室網站，並且使用 redis 快取讀取訊息。
+一個用 ReactJS 打造的聊天室網站，並且使用 socket.io 以及 redis 快取讀取訊息。
 
 ## 功能
 
